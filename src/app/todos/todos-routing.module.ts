@@ -5,6 +5,10 @@ import { TodoListComponent } from './todo-list';
 export const TodosRoutes: Routes = [
     {
         path: 'todos',
-        redirectTo: 'todos/list'
+        redirectTo: '/todos/list'
+    },
+    {
+        path: '/todos/list',
+        component: TodoListComponent
     }
-]
+];

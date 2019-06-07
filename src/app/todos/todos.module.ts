@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TodoService } from './index';
-import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoListComponent } from './todo-list';
+import { TodoService } from './shared';
 @NgModule({
   declarations: [TodoListComponent],
   imports: [
